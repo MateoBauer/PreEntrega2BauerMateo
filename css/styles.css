@@ -4,10 +4,14 @@
 }
 
 a:hover { 
-    font-weight: bolder; font-size: 15px; color: black;}
+    font-weight: bolder; font-size: 15px; color: rgb(0, 0, 0);}
 
 body {
     background-color: rgb(233, 227, 227);
+}
+
+.nav_margin {
+    margin-top: 70px
 }
 
 .fixed-top {
@@ -15,9 +19,10 @@ body {
 }
 
 .logo1 {
-    font-size: 40px;
+    font-size: 50px;
     padding-right: 20px;
     padding-bottom: 0px; 
+    font-family: 'Teko', sans-serif;
 }
 
 .estilo_contacto {
@@ -46,6 +51,7 @@ body {
     justify-content: space-between;
     color: black;
     text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .color_white {
@@ -62,12 +68,30 @@ body {
 
 
 .subtitulo1 {
-    margin-top: 40px;
+    margin-top: 90px;
     font-size: 30px;
     background-color: rgb(233, 227, 227);
     text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
+.subtitulo2 {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(233, 227, 227);
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.subtitulo3 {
+    color: rgb(0, 0, 0);
+}
+
+
+.tamaño_subtitulo {
+    width: 400px;
+}
 
 .footer_grid1  {
     background-image: linear-gradient(to top, rgb(68, 67, 67),rgb(233, 227, 227));
@@ -76,15 +100,15 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 90px;
-    padding-bottom: 10px;
     text-decoration: none;
 }
 
 .footer_estilo_left {
+    position: sticky;
     width: 50px;
     padding-top: 5px;
     padding-bottom: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     margin: 3px;
 }
 
@@ -99,18 +123,14 @@ body {
 .footer_subtitulo {
     padding: 0px 10px 0px 0px;
     font-size: 16px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Inconsolata', monospace;
     padding-bottom: 10px;
 }
 
 ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0px; }
-
-.mapa {
-    width: 700px;
-    height: 500px;
+    padding: 0px; 
 }
 
 .contacto {
@@ -118,4 +138,25 @@ ul {
     padding-top: 100px;
     padding-left: 20px;
     width: 60%;
+}
+
+.portada_aros {
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.tamaño_portada {
+    width: 400px;
+    padding-top: 60px;
+}
+
+.tamaño_accesorios {
+    width: 45px;
+}
+
+.margin_oferta {
+    margin: 10px;
 }
